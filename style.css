@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #144f46;
+}
+
+a:visited, a:active, a:link {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  background-color: #142f26;
+  height: 60px;
+}
+
+.up_links {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.3em;
+  color: #148f86;
+}
+
+.up_links:hover {
+  color: white;
+}
+
+.up_link_1, .up_link_2, .up_link_3, .up_link_4 {
+  margin-left: 5%;
+}
