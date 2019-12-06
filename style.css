@@ -14,7 +14,7 @@ a:visited, a:active, a:link {
 
 .header {
   display: flex;
-  background-color: #142f26;
+  background-color: #140f06;
   height: 60px;
 }
 
@@ -31,4 +31,18 @@ a:visited, a:active, a:link {
 
 .up_link_1, .up_link_2, .up_link_3, .up_link_4 {
   margin-left: 5%;
+}
+
+.index_body {
+  height: 500px;
+  width: 850px;
+  border: solid black;
+  margin-top: 5%;
+  margin-left: 500px;
+  padding: 1% 1% 1% 1%;
+}
+
+.index_body_span {
+  font-size: 1.5em;
+  color: #d8e8e4;
 }
