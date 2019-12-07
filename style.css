@@ -20,30 +20,73 @@ a:visited, a:active, a:link {
 }
 
 .up_links {
-  margin-top: 1%;
   margin-bottom: 1%;
   font-size: 1.3em;
   color: #148f86;
 }
 
 .up_links:hover {
-  color: white;
+  color: #00fff9;
 }
 
 .up_link_1, .up_link_2, .up_link_3, .up_link_4 {
-  margin-left: 5%;
+  margin-left: 2%;
+  padding-top: 1%;
+}
+
+.up_link_1:hover, .up_link_2:hover, .up_link_3:hover, .up_link_4:hover {
+  background-color: #142f26;
 }
 
 .index_body {
   height: 500px;
   width: 850px;
   border: solid black;
+  border-width: thin;
   margin-top: 5%;
   margin-left: 500px;
   padding: 1% 1% 1% 1%;
 }
 
+.index_body:hover {
+  border-color: #148f86;
+}
+
 .index_body_span {
   font-size: 1.5em;
   color: #d8e8e4;
+}
+
+
+/* KNOWLAGE HTML */
+
+.body_knowlage_left {
+  border: solid black;
+  border-width: thin;
+  height: 800px;
+  width: 1200px;
+  margin-left: 2%;
+  margin-top: 1%;
+  float: left;
+  padding: 1% 1% 1% 1%;
+}
+
+.body_knowlage_left:hover, .body_knowlage_right:hover {
+  border-color: #148f86;
+}
+
+.body_knowlage_right {
+  border: solid black;
+  border-width: thin;
+  height: 800px;
+  width: 500px;
+  margin-top: 1%;
+  margin-right: 2%;
+  float: right;
+  padding: 1% 1% 1% 1%;
+}
+
+.body_span_left, .body_span_right {
+  font-size: 2em;
+  color: #5adde7;
 }
